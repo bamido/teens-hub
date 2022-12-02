@@ -1,0 +1,25 @@
+- to initialize fit
+git init
+
+- configuration
+git config  --global user.name "James Bond"
+git config  --global user.email "james@bond.com"
+
+- check config
+git config --list
+
+- check status of your git project
+git status
+
+- to track file
+
+git add index.html
+
+- track all files
+git add .
+
+- to version/snaphost it
+git commit -m "initial commit"
+
+- untrack a file
+git restore --staged today.txt
