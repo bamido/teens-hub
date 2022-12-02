@@ -18,7 +18,7 @@ git add index.html
 - track all files
 git add .
 
-- to version/snaphost it
+- to take snaphost of repo
 git commit -m "initial commit"
 
 - untrack a file
