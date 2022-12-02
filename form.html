@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+	<head>
+			<title>Form Demo</title>
+	</head>
+	<body>
+		<h2>HTML Form Elements</h2>
+		<form action="" method="get">
+			<p>
+				<label>Fullname</label>
+				<input type="text" name="fullname" id="fullname" >
+			</p>
+			
+			<p>
+				<label>Password</label>
+				<input type="password" name="passowrd" id="password">
+			</p>
+			
+			<p>
+				<label for="emailaddress">
+				Email Address</label>
+				<input type="email" name="emailaddress" id="emailaddress">
+			</p>
+			
+			<p>
+				<label>Gender</label>
+				<input type="radio" name="gender" id="gender1" value="male" >
+				<label for="gender1">Male</label>
+				
+				<input type="radio" name="gender" id="gender2" value="female" > 
+				<label for="gender2">Female</label>
+			</p>
+			
+			<p>
+				<label>Cities Visited?</label><br>
+				<input type="checkbox" name="city1" id="city1" value="kano">
+				<label for="city1">Kano</label><br>
+				
+				<input type="checkbox" name="city2" id="city2" value="jos">
+				<label for="city1">Jos</label><br>
+				
+				<input type="checkbox" name="city3" id="city3" value="kano">
+				<label for="city3">Lagos</label><br>
+				
+			</p>
+			
+			<p>
+				<label for="resume">Upload your Resume</label>
+				<input type="file" name="resume" id="resume" multiple>
+			</p>
+			
+			<p>
+				<label>Fabric Color</label>
+				<input type="color" name="fabricolor" >
+			</p>
+			
+			<p>
+				<label>Date of Birth</label>
+				<input type="date" name="dob" >
+			</p>
+			
+			<p>
+				<label>Message</label>
+				<textarea name="message" 
+				cols="40" rows="10"></textarea>
+			</p>
+			
+			<p>
+				<label>State</label>
+				<select name="state" id="state">
+					<option value="">Choose State</option>
+					<option value="Abia">Abia</option>
+					<option value="Adamawa">Adamawa</option>
+					<option value="Lagos">Lagos</option> 
+					<option value="Kaduna">Kaduna</option>
+					<option value="Enugu">Enugu</option>
+					<option value="Edo">Edo</option>
+					
+				</select>
+			</p>
+			<p>
+				<label>Number of Fabric</label>
+				<input type="number" name="fabricno" min="1" value="5" >
+			</p>
+			<p>
+				<input type="submit" name="submit" value="Register Now!">
+				<input type="button" name="button" value="Click Me!">
+				<input type="reset" name="reset" value="Clear Form" >
+			</p>
+		</form>
+	</body>
+</html>

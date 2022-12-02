@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+	<head>
+		<title>
+			Other CSS Properties & Pseudo Classes
+		</title>
+		<style type="text/css">
+			p{
+				line-height: 28px;
+			}
+			footer{
+				background-color: orange;
+				height: 100px;
+				line-height:100px;
+				text-align: center;
+			}
+			
+			h2{
+				text-shadow: 3px 3px 5px red, 6px 6px 5px blue ;
+			}
+			
+			.box{
+				border: 1px solid #000;
+				width: 300px;
+				height:300px;
+				margin:40px 0;
+				padding:20px;
+				box-shadow: 4px 5px 6px grey;
+			}
+			.picshadow{
+				width: 300px;
+				box-shadow: 3px 4px 5px red;
+				margin:40px 0;
+				border-radius: 20px;
+				border:1px solid red;
+			}
+			
+			p::first-line{
+				color:brown;
+				font-weight: bold;
+			}
+			p::first-letter{
+				font-size: 32px;
+			}
+			
+			#menu{
+				list-style-type: none;
+				
+			}
+			
+			#menu li{
+				margin-bottom:5px;
+			}
+			
+			#menu li a::before{
+				content: url('images/pink_dot.png');
+				
+			}
+			
+			#menu li a::after{
+				content: "";
+			}
+			
+			#menu li a{
+				text-decoration: none;
+			}
+			
+			h2::before{
+				content: "***";
+			}
+			
+			h2::after{
+				content: "***";
+			}
+			
+			p::selection{
+				background-color: #fff123;
+				color: #fff;
+			}
+			
+			#menu li a:hover{
+				background-color: skyblue;
+			}
+			div a:active{
+				border:2px solid #000;
+				padding:20px;
+				color: pink;
+			}
+			
+			div a:hover{
+				text-decoration: none;
+				background-color: brown;
+				color: #fff;
+				padding:10px;
+			}
+		</style>
+	</head>
+	<body>
+		<ul id="menu">
+			<li><a href="">Home</a></li>
+			<li><a href="">Who We Are</a></li>
+			<li><a href="">Help</a></li>
+		</ul>
+		<div>
+			<a href="">Toursim</a>
+			<a href="">Register</a>
+		</div>
+		<h2>Introduction to CSS</h2>
+		<p>
+			View-Controller using Laravel framework (if you opt for PHP) or Flask Framework (if you choose Python). You will be required to build your own application using all the things you have learnt. This course takes a deep dive into building interactivity into your application through Ajax and many more. You will be taught the concept of Model-View-Controller using Laravel framework (if you opt for PHP) or Flask Framework (if you choose Python). You will be required to build your own application using all the things you have learnt. This course takes a deep dive into building interactivity into your application through Ajax and many more. You will be taught the concept of Model-View-Controller using Laravel framework (if you opt for PHP) or Flask Framework (if you choose Python).
+		</p>
+		<h2>2023 General Elections</h2>
+		<p>
+			This course takes a deep dive into building interactivity into your application through Ajax and many more. You will be taught the concept of Model-View-Controller using Laravel framework (if you opt for PHP) or Flask Framework (if you choose Python). This course takes a deep dive into building interactivity into your application through Ajax and many more. You will be taught the concept of Model-View-Controller using Laravel framework (if you opt for PHP) or Flask Framework (if you choose Python).This course takes a deep dive into building interactivity into your application through Ajax and many more. You will be taught the concept of Model-View-Controller using Laravel framework (if you opt for PHP) or Flask Framework (if you choose Python).
+		</p>
+	
+		<div class="box">
+			all the things you have learnt. This course takes a deep dive into building interactivity into your application through Ajax and many more. You will be taught the concept
+		</div>
+		<img src="images/g2.jpg" alt="photo" class="picshadow">
+		<footer>
+			<span>
+			Copyright &copy; 2022. All rights reserved.
+			</span>
+		</footer>
+	</body>
+</html>

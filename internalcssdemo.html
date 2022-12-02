@@ -1,0 +1,101 @@
+<!doctype  html>
+<html>
+	<head>
+		<title>Inline CSS Demo</title>
+		<style type="text/css">
+			/* tags selector */
+			p{
+				color:red;
+			}
+			
+			body{
+				background-color: skyblue;
+			}
+			h2{
+				text-decoration: underline;
+				text-transform: uppercase;
+			}
+			
+			img{
+				width:200px;
+				
+			}
+			
+			/* attribute selectors*/
+			[alt]{
+				border:3px solid black;
+				margin:5px;
+			}
+			
+			/* attribute selector with value*/
+			[src='images/itpro2.jpg']{
+				border:10px solid yellow;
+			}
+			
+			[type="password"]{
+				border:2px solid red;
+			}
+			
+			[value="Sign Up"]{
+				background-color: green;
+				color:white;
+				padding:10px;
+			}
+			
+			/* id selector */
+			#headingtwo{
+				background-color: yellow;
+				padding: 10px;
+			}
+			
+			#featured{
+				width:400px;
+				height:400px;
+				border:2px solid black;
+			}
+			
+			/* class selector */
+			.line1{
+				background-color:brown;
+				height:2px;
+			
+			}
+			
+		</style>
+	</head>
+	<body>
+		<h2 id="headingone">Welcome to Moat Academy for Developers</h2>
+		<p>
+			This training comes with some special modules such as Version Control using Git, Software Engineering and Career Services. These aim at arming you with all the skills you need in your software development journey ... In this course, you will learn how to create dynamic and interactive websites using either PHP or Python , you also learn how to manage databases too.
+		</p>
+		<hr class="line1">
+		<h2 id="headingtwo">This is Lagos</h2>
+		<p >In this course, you will learn how to create dynamic and interactive websites using either PHP or Python , you also learn how to manage databases too.</p>
+		
+		<hr class="line1">
+		<h2 id="headingthree">Introduction to CSS</h2>
+		<p >
+			In this course, you will learn how to create dynamic and interactive websites using either PHP or Python , you also learn how to manage databases too.
+		</p>
+		
+		<div>
+			<img src="images/itpro1.jpg" alt="my photo 1" >
+			<img src="images/itpro2.jpg" alt="my photo 2" >
+			<img src="images/itpro3.jpg" alt="my photo 3" >
+		</div>
+		
+		<form>
+		
+			<input type="text" size="40" name="user"> <br>
+			<input type="password" size="40" name="pwd"> <br>
+			<input type="button" value="Sign Up" >
+		</form>
+		
+		<div id="featured">
+			featured products
+		</div>
+		
+	</body>
+
+
+</html>

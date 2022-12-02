@@ -1,0 +1,36 @@
+/*
+Date: 22/Nov/2022
+Program: External CSS Demo
+Author: Bamido Yemi
+*/
+
+/* Custom fonts definition */
+@font-face{
+	font-family: 'danjuma-rubik';
+	src: url('../fonts/rubik/rubik-bold-webfont.woff2');
+	
+}
+
+@font-face{
+	font-family: 'moat biorhyme';
+	src: url('../fonts/biorhyme/biorhyme-extrabold-webfont.woff2');
+	
+}
+
+body{
+	background-color: rgb(0,0,0);
+	color: rgb(255,255,255);
+}
+
+p{
+	font-family: 'danjuma-rubik', Karla, calibri, sans-serif;
+}
+
+a{
+	color: rgb(255,242,0);
+	font-family: 'moat biorhyme', serif;
+}
+
+h1{
+	font-family: BioRhyme, serif;
+}

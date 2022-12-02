@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+	<head>
+		<title>
+			Other CSS Properties & Pseudo Classes
+		</title>
+		<!-- External CSS -->
+		<link href="css/other.css" rel="stylesheet" type="text/css">
+		
+		<!-- Internal CSS -->
+		<style type="text/css">
+			body{
+				background-color: skyblue !important;
+			}
+			
+			tr:nth-child(odd){
+				background-color: #808080;
+				color: #fff;
+			}
+			
+			tr:nth-child(even){
+				background-color: #fff123;
+			}
+			
+			tr:hover{
+				background-color: purple;
+				color: yellow;
+			}
+			
+			h2{
+				letter-spacing: 15px;
+			}
+			.mytable{
+				width:70%;
+				height:300px;
+				
+			}
+			
+			table tr{
+				vertical-align:middle;
+				text-align: center;
+				
+			}
+			
+			table, tr td, tr th{
+				border:1px solid #000;
+			}
+			
+			input[type='submit']{
+				padding:10px;
+				background-color: brown;
+				color: #fff;
+				border-radius:20px;
+			}
+			
+		</style>
+	</head>
+	<body style="background-color: lightgreen !important;">
+		<h2>List of Employee </h2>
+		<table class="mytable">
+			<tr>
+				<th>S/No</th>
+				<th>Fullname</th>
+				<th>Age</th>
+				<th>Salary</th>
+			</tr>
+			<tr>
+				<td>1.</td>
+				<td>Larry Page</td>
+				<td>22</td>
+				<td>$1.2m</td>
+			</tr>
+			<tr>
+				<td>2.</td>
+				<td>Bill Gates</td>
+				<td>34</td>
+				<td>$4.2m</td>
+			</tr>
+			<tr>
+				<td>3.</td>
+				<td>Elon Musk</td>
+				<td>38</td>
+				<td>$6m</td>
+			</tr>
+			<tr>
+				<td>4.</td>
+				<td>Tim Cook</td>
+				<td>35</td>
+				<td>$7.3m</td>
+			</tr>
+			
+		</table>
+		
+		<form>
+			<p>
+				Fullname
+				<input type="text" name="fullname" id="fullname" required>
+			</p>
+			<p>
+				
+				<input type="submit" name="submit" value="Subscribe">
+				
+				<button type="submit">Register</button>
+			</p>
+		</form>
+		
+		<h1>Introduction HTML</h1>
+		<p>
+			You will be required to build your own application using all the things you have learnt. This course takes a deep dive into building interactivity into your application through Ajax and many more. You will be taught the concept of Model-View-Controller using Laravel framework (if you opt for PHP) or Flask Framework (if you choose Python). You will be required to build your own application using all the things you have learnt.
+		</p>
+		
+	</body>
+</html>

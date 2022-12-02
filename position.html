@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Semantic Elements</title>
+		<style type="text/css">
+			#divA{
+				min-height:200px;
+				width:200px;
+				background-color: rgba(255,0,0,0.5);
+				position:relative;
+				top:-200px;
+				left:400px;
+			}
+			
+			#divB{
+				min-height:250px;
+				width:250px;
+				background-color: rgba(0,255,0,0.5);
+			}
+			
+			#goup{
+				border:1px solid #000;
+				width:45px;
+				position: fixed;
+				bottom:5px;
+				right:5px;
+				border-radius:20px;
+				padding:5px;
+				background-color: rgba(0,255,0,0.5);
+			}
+			
+			#goup a{
+				text-decoration: none;
+			}
+			header{
+				position:relative;
+				top:80px;
+				border:2px solid green;
+			}
+			#banner{
+				height:300px;
+				background-image: url("images/itpro2.jpg");
+				background-size: cover;
+				background-position: center;
+			}
+			
+			#headingone{
+				position: absolute;
+				top: 180px;
+				left: 350px;
+				color:#fff;
+				background-color: rgba(255,100,0,0.8);
+				padding:20px;
+			}
+			
+			#topmenu li {
+				display: inline-block;
+				padding:0 5px;
+			}
+			
+			#topmenu li a{
+				text-decoration: none;
+			}
+			
+			nav{
+				position: fixed;
+				top:0px;
+				z-index: 2;
+				background-color: skyblue;
+				width:100%
+			}
+		</style>
+	</head>
+	<body>
+		<nav>
+			<ul id="topmenu">
+				<li><a href="">Home</a></li>
+				<li><a href="">About</a></li>
+				<li><a href="">Services</a></li>
+				<li><a href="">Stat</a></li>
+				<li><a href="">Testimonials</a></li>
+				<li><a href="">Subscribe</a></li>
+			</ul>
+		</nav>
+		<header>
+			<div id="banner"></div>
+			<h2 id="headingone">Introduction TO CSS</h2>
+		</header>
+		<div>
+			<h2>Welcome To Moat academy</h2>
+			<p>
+				This course takes a deep dive into building interactivity into your application through Ajax and many more. You will be taught the concept of Model-View-Controller using Laravel framework (if you opt for PHP) or Flask Framework (if you choose Python). You will be required to build your own application using all the things you have learnt. This course takes a deep dive into building interactivity into your application through Ajax and many more. You will be taught the concept of Model-View-Controller using Laravel framework (if you opt for PHP) or Flask Framework (if you choose Python). You will be required to build your own application using all the things you have learnt. This course takes a deep dive into building interactivity into your application through Ajax and many more. You will be taught the concept of Model-View-Controller using Laravel framework (if you opt for PHP) or Flask Framework (if you choose Python).
+			</p>
+			<img src="images/banner2.jpg" alt="my photo" width="400">
+		</div>
+		
+		<div id="divA">Div A</div>
+		<div id="divB">Div B</div>
+		<div id="goup">
+			<a href="#topmenu">Go Up</a>
+		</div>
+	</body>
+
+</html>
